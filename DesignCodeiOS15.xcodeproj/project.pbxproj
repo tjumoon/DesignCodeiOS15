@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F410AE2427D5AE7400D967CD /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F410AE2327D5AE7400D967CD /* TabBar.swift */; };
+		F410AE2627D5B30700D967CD /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F410AE2527D5B30700D967CD /* Tab.swift */; };
+		F410AE2827D6004A00D967CD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F410AE2727D6004A00D967CD /* HomeView.swift */; };
+		F410AE2F27D6034900D967CD /* FeaturedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F410AE2E27D6034900D967CD /* FeaturedItem.swift */; };
 		F4368E0F27D097EC00D99343 /* DesignCodeiOS15App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4368E0E27D097EC00D99343 /* DesignCodeiOS15App.swift */; };
 		F4368E1127D097EC00D99343 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4368E1027D097EC00D99343 /* ContentView.swift */; };
 		F4368E1327D097EE00D99343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4368E1227D097EE00D99343 /* Assets.xcassets */; };
 		F4368E1627D097EE00D99343 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4368E1527D097EE00D99343 /* Preview Assets.xcassets */; };
+		F4368E1D27D0A9C900D99343 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4368E1C27D0A9C900D99343 /* Styles.swift */; };
+		F4368E1F27D0C1F600D99343 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4368E1E27D0C1F600D99343 /* AccountView.swift */; };
+		F4368E2127D1D8C100D99343 /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4368E2027D1D8C100D99343 /* HexagonView.swift */; };
+		F4368E2327D1E42800D99343 /* BlobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4368E2227D1E42800D99343 /* BlobView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F4368E0B27D097EC00D99343 /* DesignCodeiOS15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCodeiOS15.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F410AE2327D5AE7400D967CD /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		F410AE2527D5B30700D967CD /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		F410AE2727D6004A00D967CD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F410AE2E27D6034900D967CD /* FeaturedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItem.swift; sourceTree = "<group>"; };
+		F4368E0B27D097EC00D99343 /* DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4368E0E27D097EC00D99343 /* DesignCodeiOS15App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeiOS15App.swift; sourceTree = "<group>"; };
 		F4368E1027D097EC00D99343 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4368E1227D097EE00D99343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4368E1527D097EE00D99343 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4368E1C27D0A9C900D99343 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		F4368E1E27D0C1F600D99343 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		F4368E2027D1D8C100D99343 /* HexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
+		F4368E2227D1E42800D99343 /* BlobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlobView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F410AE2927D601AC00D967CD /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F4368E1027D097EC00D99343 /* ContentView.swift */,
+				F410AE2327D5AE7400D967CD /* TabBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		F410AE2A27D601B600D967CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F410AE2727D6004A00D967CD /* HomeView.swift */,
+				F4368E1E27D0C1F600D99343 /* AccountView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F410AE2B27D601BD00D967CD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F4368E2227D1E42800D99343 /* BlobView.swift */,
+				F4368E2027D1D8C100D99343 /* HexagonView.swift */,
+				F410AE2E27D6034900D967CD /* FeaturedItem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F410AE2C27D601CF00D967CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F410AE2527D5B30700D967CD /* Tab.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F410AE2D27D601D500D967CD /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				F4368E1C27D0A9C900D99343 /* Styles.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 		F4368E0227D097EC00D99343 = {
 			isa = PBXGroup;
 			children = (
@@ -43,7 +103,7 @@
 		F4368E0C27D097EC00D99343 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4368E0B27D097EC00D99343 /* DesignCodeiOS15.app */,
+				F4368E0B27D097EC00D99343 /* DesignCode.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +111,12 @@
 		F4368E0D27D097EC00D99343 /* DesignCodeiOS15 */ = {
 			isa = PBXGroup;
 			children = (
+				F410AE2927D601AC00D967CD /* Navigation */,
+				F410AE2A27D601B600D967CD /* Views */,
+				F410AE2C27D601CF00D967CD /* Model */,
+				F410AE2B27D601BD00D967CD /* Components */,
+				F410AE2D27D601D500D967CD /* Styles */,
 				F4368E0E27D097EC00D99343 /* DesignCodeiOS15App.swift */,
-				F4368E1027D097EC00D99343 /* ContentView.swift */,
 				F4368E1227D097EE00D99343 /* Assets.xcassets */,
 				F4368E1427D097EE00D99343 /* Preview Content */,
 			);
@@ -84,7 +148,7 @@
 			);
 			name = DesignCodeiOS15;
 			productName = DesignCodeiOS15;
-			productReference = F4368E0B27D097EC00D99343 /* DesignCodeiOS15.app */;
+			productReference = F4368E0B27D097EC00D99343 /* DesignCode.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,8 +201,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F410AE2827D6004A00D967CD /* HomeView.swift in Sources */,
+				F4368E1F27D0C1F600D99343 /* AccountView.swift in Sources */,
+				F4368E2127D1D8C100D99343 /* HexagonView.swift in Sources */,
+				F4368E1D27D0A9C900D99343 /* Styles.swift in Sources */,
+				F410AE2627D5B30700D967CD /* Tab.swift in Sources */,
+				F4368E2327D1E42800D99343 /* BlobView.swift in Sources */,
 				F4368E1127D097EC00D99343 /* ContentView.swift in Sources */,
 				F4368E0F27D097EC00D99343 /* DesignCodeiOS15App.swift in Sources */,
+				F410AE2F27D6034900D967CD /* FeaturedItem.swift in Sources */,
+				F410AE2427D5AE7400D967CD /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +354,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.simonyang.demo.DesignCodeiOS15;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DesignCode;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,7 +382,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.simonyang.demo.DesignCodeiOS15;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DesignCode;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
