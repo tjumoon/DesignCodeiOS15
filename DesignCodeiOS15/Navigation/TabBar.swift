@@ -13,22 +13,25 @@ struct TabBar: View {
     @State var tabItemWidth: CGFloat = 0
     
     var body: some View {
+        GeometryReader { proxy in
+            let hasHomeIndicator = proxy.safeAreaInsets.bottom > 20
             HStack {
-                buttons
-            }
-            .padding(.top, 14)
-            .frame(height: 88, alignment: .top)
-            .background(.ultraThinMaterial, in:
-                            RoundedRectangle(cornerRadius: 34, style: .continuous))
-            .background(
-                background
-            )
-            .overlay(
-                overlay
-            )
-            .strokStyle(cornerRadius: 34)
-            .frame(maxHeight: .infinity, alignment: .bottom)
+                    buttons
+                }
+                .padding(.top, 14)
+                .frame(height: hasHomeIndicator ? 88 : 62, alignment: .top)
+                .background(.ultraThinMaterial, in:
+                                RoundedRectangle(cornerRadius: hasHomeIndicator ? 34 : 0, style: .continuous))
+                .background(
+                    background
+                )
+                .overlay(
+                    overlay
+                )
+                .strokStyle(cornerRadius: 34)
+                .frame(maxHeight: .infinity, alignment: .bottom)
             .ignoresSafeArea()
+        }
             
         
     }
